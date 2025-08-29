@@ -20,7 +20,7 @@ Add this library to the classpath by adding the following maven dependency. Vers
 The [CustomAccessorNamingStrategy.java](src%2Fmain%2Fjava%2Fit%2Faboutbits%2Fmapstruct%2Fspi%2FCustomAccessorNamingStrategy.java) adds support for Lombok's `@With` methods.
 By default, Lombok would treat these generated functions as accessors and would try to map them.
 
-## Local development:
+## Local Development
 
 To use this library as a local development dependency, you can simply refer to the version `BUILD-SNAPSHOT`.
 
@@ -28,9 +28,9 @@ Check out this repository and run the maven goal `install`. This will build and 
 
 Note that you may have to tell your IDE to reload your main maven project each time you build the library.
 
-## Building and releasing a new version:
+## Build & Publish
 
-To create a new version of this package and push it to the maven registry, you will have to use the GitHub actions workflow and manually trigger it.
+To build and publish the chart, visit the GitHub Actions page of the repository and trigger the workflow "Release Package" manually.
 
 ## Information
 
