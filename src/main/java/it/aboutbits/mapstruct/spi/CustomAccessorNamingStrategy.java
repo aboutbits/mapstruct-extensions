@@ -12,7 +12,7 @@ public class CustomAccessorNamingStrategy extends DefaultAccessorNamingStrategy 
     }
 
     protected boolean isWitherMethod(ExecutableElement method) {
-        String methodName = method.getSimpleName().toString();
+        var methodName = method.getSimpleName().toString();
         return methodName.length() > 4 && methodName.startsWith("with") && Character.isUpperCase(methodName.charAt(4));
     }
 }
